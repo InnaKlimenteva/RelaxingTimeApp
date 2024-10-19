@@ -1,0 +1,41 @@
+body {
+    background-image: url('https://cdn.glitch.global/268f7188-d536-47dc-b959-723a2647cf68/prediction.jpeg?v=1722425644152');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin-bottom: 100px;
+    font-size: 32px;
+    padding: 15px;
+    border-radius: 50px;
+    color: #937844;
+    background-color: aliceblue;
+    border: 1px solid #937844;
+    font-family: "Montserrat", sans-serif;
+}
+
+.par {
+    font-size: 32px;
+    padding: 15px;
+    border-radius: 50px;
+    color: #e2d6c0;
+    display: none;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+} 
+
+@media all and (max-width:500px){
+    .btn {
+        font-size: 20px;
+    }
+}
