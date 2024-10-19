@@ -1,0 +1,62 @@
+#container-countdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    background: #f0f3f5;
+    opacity: 0.8;
+    box-shadow: 0px 0px 16px #729762;
+    border-radius: 50%;
+    padding: 30px; 
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.container-playPause {
+    margin-top: 5px;
+    padding-bottom: 10px;
+    
+}
+
+.container-playPause:hover {
+    color: #0a4f2d;
+    text-shadow: 0px 0px 30px #729762;
+    font-size: 20px;
+}
+
+#countdown {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+
+#myButton {
+    border: none;
+    background: transparent;
+    opacity: 0.8;
+    
+    font-size: 25px;
+    padding: 5px;
+}
+
+@media all and (max-width: 500px){
+    #myButton {
+        background-color: white;
+    }
+}
