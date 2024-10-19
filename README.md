@@ -1,4 +1,6 @@
 # Relaxing Time Application
+<img src="https://media.giphy.com/media/xT9DPyTQF3Acztr69y/giphy.gif?cid=790b76116y1bi2daxew1j06qu3lg13udtg02la48ew92mb0c&ep=v1_gifs_search&rid=giphy.gif&ct=g"/>
+
 
 Welcome to the **RelaxingTime** application, designed to help you unwind and find tranquility in your daily life. This web app offers three distinct options for relaxation: **Meditation**, **Prediction**, and **Inspiration**. 
 
@@ -28,13 +30,10 @@ The application is built using the following technologies:
 To run the application locally, clone the repository and open the `index.html` file in your preferred web browser.
 
 ```bash
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/InnaKlimenteva/RelaxingTimeApp.git)
 cd RelaxingTime
 open index.html
 ```
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 For questions or feedback, please reach out to [my Email/innaklimenteva@yandex.com].
